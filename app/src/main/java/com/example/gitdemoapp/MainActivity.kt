@@ -17,10 +17,16 @@ class MainActivity : AppCompatActivity() {
 
         val btnHello = findViewById<Button>(R.id.btnHell)
         val btnExit = findViewById<Button>(R.id.btnExi)
+        val btnabou = findViewById<Button>(R.id.btnAbout)
 
         btnHello.setOnClickListener {
             Toast.makeText(this, "Hello Ayyub!", Toast.LENGTH_SHORT).show()
         }
+
+        btnabou .setOnClickListener {
+            Toast.makeText(this, "Hello Nietin!", Toast.LENGTH_SHORT).show()
+        }
+
 
         btnExit.setOnClickListener {
             finish()

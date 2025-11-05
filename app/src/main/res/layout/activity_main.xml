@@ -18,4 +18,17 @@
         android:layout_height="wrap_content"
         android:text="Exit"
         android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:layout_marginTop="16dp"/>
+
+
+
+
+
+
 </LinearLayout>
